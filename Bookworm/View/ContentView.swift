@@ -62,6 +62,7 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .modelContainer(for: Book.self, inMemory: true)
+        .preferredColorScheme(.dark)
 }
 
 struct BookRow: View {

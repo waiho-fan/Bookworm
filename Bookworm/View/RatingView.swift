@@ -62,4 +62,5 @@ struct RatingView: View {
 
 #Preview {
     RatingView(rating: .constant(4))
+        .preferredColorScheme(.dark)
 }

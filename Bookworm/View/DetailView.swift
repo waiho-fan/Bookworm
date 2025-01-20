@@ -75,6 +75,7 @@ struct DetailView: View {
         
         return DetailView(book: example)
             .modelContainer(container)
+            .preferredColorScheme(.dark)
     } catch {
         return Text("Failed to create preview: \(error.localizedDescription)")
     }

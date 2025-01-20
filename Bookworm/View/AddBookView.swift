@@ -69,4 +69,5 @@ struct AddBookView: View {
 
 #Preview {
     AddBookView()
+        .preferredColorScheme(.dark)
 }

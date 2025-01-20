@@ -32,4 +32,5 @@ struct EmojiRatingView: View {
 
 #Preview {
     EmojiRatingView(rating: 3)
+        .preferredColorScheme(.dark)
 }
